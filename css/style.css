@@ -1,0 +1,634 @@
+/*=============================================================================
+HTML5 Boilerplate CSS: h5bp.com/css
+==========================================================================*/
+ARTICLE, ASIDE, DETAILS, FIGCAPTION, FIGURE, FOOTER, HEADER, HGROUP, NAV, SECTION
+{
+	display: block;
+}
+AUDIO, CANVAS, VIDEO
+{
+	display: inline-block;
+	=display: inline;
+	=zoom: 1;
+}
+AUDIO:not([controls])
+{
+	display: none;
+}
+[hidden]
+{
+	display: none;
+}
+HTML
+{
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+HTML, BUTTON, INPUT, SELECT, TEXTAREA
+{
+	font-family: sans-serif;
+	color: #222;
+}
+BODY
+{
+	margin: 0;
+	font-size: 1em;
+	line-height: 1.4;
+}
+::-moz-selection
+{
+	background: #FE57A1;
+	color: #FFF;
+	text-shadow: none;
+}
+::selection
+{
+	background: #FE57A1;
+	color: #FFF;
+	text-shadow: none;
+}
+A
+{
+	color: #00E;
+}
+A:visited
+{
+	color: #551A8B;
+}
+A:hover
+{
+	color: #06E;
+}
+A:focus
+{
+	outline: thin dotted;
+}
+A:hover, A:active
+{
+	outline: 0;
+}
+ABBR[title]
+{
+	border-bottom: 1px dotted;
+}
+B, STRONG
+{
+	font-weight: bold;
+}
+BLOCKQUOTE
+{
+	margin: 1em 40px;
+}
+DFN
+{
+	font-style: italic;
+}
+HR
+{
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #CCC;
+	margin: 1em 0;
+	padding: 0;
+}
+INS
+{
+	background: #FF9;
+	color: #000;
+	text-decoration: none;
+}
+MARK
+{
+	background: #FF0;
+	color: #000;
+	font-style: italic;
+	font-weight: bold;
+}
+PRE, CODE, KBD, SAMP
+{
+	font-family: monospace, serif;
+	-font-family: "courier new", monospace;
+	font-size: 1em;
+}
+PRE
+{
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+Q
+{
+	quotes: none;
+}
+Q:before, Q:after
+{
+	content: "";
+	content: none;
+}
+SMALL
+{
+	font-size: 85%;
+}
+SUB, SUP
+{
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+SUP
+{
+	top: -0.5em;
+}
+SUB
+{
+	bottom: -0.25em;
+}
+UL, OL
+{
+	margin: 1em 0;
+	padding: 0 0 0 40px;
+}
+DD
+{
+	margin: 0 0 0 40px;
+}
+NAV UL, NAV OL
+{
+	list-style: none;
+	list-style-image: none;
+	margin: 0;
+	padding: 0;
+}
+IMG
+{
+	border: 0;
+	-ms-interpolation-mode: bicubic;
+	vertical-align: middle;
+}
+/*svg:not(:root)*/
+#INVALID-RULE
+{
+	overflow: hidden;
+}
+FIGURE
+{
+	margin: 0;
+}
+FORM
+{
+	margin: 0;
+}
+FIELDSET
+{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+LABEL
+{
+	cursor: pointer;
+}
+LEGEND
+{
+	border: 0;
+	=margin-left: -7px;
+	padding: 0;
+	white-space: normal;
+}
+BUTTON, INPUT, SELECT, TEXTAREA
+{
+	font-size: 100%;
+	margin: 0;
+	vertical-align: baseline;
+	=vertical-align: middle;
+}
+BUTTON, INPUT
+{
+	line-height: normal;
+}
+BUTTON, INPUT[type="button"], INPUT[type="reset"], INPUT[type="submit"]
+{
+	cursor: pointer;
+	-webkit-appearance: button;
+	=overflow: visible;
+}
+BUTTON[disabled], INPUT[disabled]
+{
+	cursor: default;
+}
+INPUT[type="checkbox"], INPUT[type="radio"]
+{
+	box-sizing: border-box;
+	padding: 0;
+	=width: 13px;
+	=height: 13px;
+}
+INPUT[type="search"]
+{
+	-webkit-appearance: textfield;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}
+INPUT[type="search"]::-webkit-search-decoration, INPUT[type="search"]::-webkit-search-cancel-button
+{
+	-webkit-appearance: none;
+}
+BUTTON::-moz-focus-inner, INPUT::-moz-focus-inner
+{
+	border: 0;
+	padding: 0;
+}
+TEXTAREA
+{
+	overflow: auto;
+	vertical-align: top;
+	resize: vertical;
+}
+INPUT:valid, TEXTAREA:valid
+{
+}
+INPUT:invalid, TEXTAREA:invalid
+{
+	background-color: #F0DDDD;
+}
+TABLE
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+	min-width: 800px;
+	font-size: 70%;
+}
+TR.alt TD
+{
+	background-color: #DAEEFA;
+}
+TR.over TD
+{
+	background-color: #BCD4EC;
+}
+TH
+{
+	text-align: left;
+	background-color: #000000;
+	color: #000000;
+	padding: 0px 5px;
+}
+TD
+{
+	vertical-align: top;
+	padding: 0px 5px;
+}
+.stripeMe
+{
+}
+.chromeframe
+{
+	margin: 0.2em 0;
+	background: #CCC;
+	color: #000000;
+	padding: 0.2em 0;
+}
+/*===== Initializr Styles =====================================================
+Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+==========================================================================*/
+BODY
+{
+	font: 16px / 26px Helvetica, "Helvetica Neue", Arial;
+}
+.wrapper
+{
+	width: 90%;
+	margin: 0 5%;
+}
+/*===================
+ALL: Orange Theme
+===================*/
+#header-container
+{
+	border-bottom: 20px solid #E44D26;
+}
+#footer-container
+{
+	border-top: 20px solid #E44D26;
+}
+#main ASIDE
+{
+	border-top: 20px solid #E44D26;
+}
+#header-container, #footer-container, #main ASIDE
+{
+	background: #F16529;
+}
+#title
+{
+	color: #FFFFFF;
+}
+::-moz-selection
+{
+	background: #F16529;
+	color: #FFF;
+	text-shadow: none;
+}
+::selection
+{
+	background: #F16529;
+	color: #FFF;
+	text-shadow: none;
+}
+/*==============
+MOBILE: Menu
+==============*/
+NAV A
+{
+	display: block;
+	margin-bottom: 10px;
+	padding: 15px 0;
+	background: #E44D26;
+	color: #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+}
+NAV A:hover, NAV A:visited
+{
+	color: #FFFFFF;
+}
+NAV A:hover
+{
+	text-decoration: underline;
+}
+/*==============
+MOBILE: Main
+==============*/
+#main
+{
+	padding: 30px 0;
+}
+#main ARTICLE H1
+{
+	font-size: 2em;
+}
+#main ASIDE
+{
+	color: #FFFFFF;
+	padding: 0px 5% 10px;
+}
+#footer-container FOOTER
+{
+	color: #FFFFFF;
+	padding: 5px 0;
+}
+/*===============
+ALL: IE Fixes
+===============*/
+.ie7 #title
+{
+	padding-top: 20px;
+}
+/*===== Primary Styles ========================================================
+Author:
+==========================================================================
+=============================================================================
+Media Queries
+==========================================================================
+====================
+INTERMEDIATE: Menu
+====================*/
+@media only screen and (min-width: 480px)
+{
+	NAV A
+	{
+		float: left;
+		width: 27%;
+		margin: 0 1.7%;
+		padding: 25px 2%;
+		margin-bottom: 0;
+	}
+	NAV LI:first-child A
+	{
+		margin-left: 0;
+	}
+	NAV LI:last-child A
+	{
+		margin-right: 0;
+	}
+/*========================
+INTERMEDIATE: IE Fixes
+========================*/
+	NAV UL LI
+	{
+		display: inline;
+	}
+	.oldie NAV A
+	{
+		margin: 0 0.7%;
+	}
+/*====================
+WIDE: CSS3 Effects
+====================*/
+}
+@media only screen and (min-width: 768px)
+{
+	#header-container, #main ASIDE
+	{
+		-webkit-box-shadow: 0 5px 10px #aaa;
+		-moz-box-shadow: 0 5px 10px #aaa;
+		box-shadow: 0 5px 10px #AAA;
+	}
+/*============
+WIDE: Menu
+============*/
+	#title
+	{
+		float: left;
+	}
+	NAV
+	{
+		float: right;
+		width: 38%;
+	}
+/*============
+WIDE: Main
+============*/
+	#main ARTICLE
+	{
+		float: left;
+		width: 57%;
+	}
+	#main ASIDE
+	{
+		float: right;
+		width: 28%;
+	}
+/*===============
+Maximal Width
+===============*/
+}
+@media only screen and (min-width: 1140px)
+{
+	.wrapper
+	{
+		width: 1026px;
+/*1140px - 10% for margins*/
+		margin: 0 auto;
+	}
+/*=============================================================================
+Non-Semantic Helper Classes
+==========================================================================*/
+}
+.ir
+{
+	display: block;
+	border: 0;
+	text-indent: -999em;
+	overflow: hidden;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	text-align: left;
+	direction: ltr;
+	=line-height: 0;
+}
+.ir BR
+{
+	display: none;
+}
+.hidden
+{
+	display: none !important;
+	visibility: hidden;
+}
+.visuallyhidden
+{
+	border: 0;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus
+{
+	clip: rect(auto, auto, auto, auto);
+	height: auto;
+	margin: 0;
+	overflow: visible;
+	position: static;
+	width: auto;
+}
+.invisible
+{
+	visibility: hidden;
+}
+.clearfix:before, .clearfix:after
+{
+	content: "";
+	display: table;
+}
+.clearfix:after
+{
+	clear: both;
+}
+.clearfix
+{
+	=zoom: 1;
+}
+/*=============================================================================
+Print Styles
+==========================================================================*/
+@media print
+{
+	*
+	{
+		background: transparent !important;
+		color: #000000 !important;
+		box-shadow: none !important;
+		text-shadow: none !important;
+		filter: none !important;
+		-ms-filter: none !important;
+	}
+/*Black prints faster: h5bp.com/s*/
+	A, A:visited
+	{
+		text-decoration: underline;
+	}
+	A[href]:after
+	{
+		content: " (" attr(href) ")";
+	}
+	ABBR[title]:after
+	{
+		content: " (" attr(title) ")";
+	}
+	.ir A:after, A[href^="javascript:"]:after, A[href^="#"]:after
+	{
+		content: "";
+	}
+/*Don't show links for images, or javascript/internal links*/
+	PRE, BLOCKQUOTE
+	{
+		border: 1px solid #999;
+		page-break-inside: avoid;
+	}
+	THEAD
+	{
+		display: table-header-group;
+	}
+/*h5bp.com/t*/
+	TR, IMG
+	{
+		page-break-inside: avoid;
+	}
+	IMG
+	{
+		max-width: 100% !important;
+	}
+	@page
+	{
+		margin: 0.5cm;
+	}
+	P, H2, H3
+	{
+		orphans: 3;
+		widows: 3;
+	}
+	H2, H3
+	{
+		page-break-after: avoid;
+	}
+/*Classes added by DKC, below:*/
+}
+#breadCrumbs
+{
+	width: auto;
+	font-size: 80%;
+	margin: -25px 0px 0px;
+}
+TABLE
+{
+	border: 1px solid #000;
+}
+.italic, EM, I
+{
+	font-style: italic;
+}
+.fontRed
+{
+	color: #E40101;
+}
+.bgRed
+{
+	background-color: #E40101;
+}
+A.moreInfo:hover
+{
+	background-color: #E44D26;
+	color: #FFF;
+	border: 1px solid #000;
+	padding: 5px 0;
+}
