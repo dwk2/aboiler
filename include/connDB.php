@@ -1,6 +1,6 @@
 <?php
 	// MySQL connection string
-	$connString = mysql_connect("localhost", "root", "loc$4242!pn") or 
+	$connString = mysql_connect("localhost", "root", "password_here") or 
 		die("Sorry! You lack proper authentication to the database.");
 	
 	// USE MySQL database
