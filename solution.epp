@@ -104,13 +104,13 @@ FTPFilename=
 ForcedReadOnly=0
 
 [File3]
-DataLen=4213
+DataLen=4242
 TopLine=95
 SelStart=2713
 SelStop=2713
 RectSel=0
 CaretPos=2713
-CaretVisible=0
+CaretVisible=1
 TopLineAlt=0
 SelStartAlt=0
 SelStopAlt=0
@@ -278,45 +278,11 @@ Filename=C:\xampp\htdocs\aboiler\include\pageheader.php
 FTPFilename=
 ForcedReadOnly=0
 
-[File8]
-DataLen=1896
-TopLine=24
-SelStart=1740
-SelStop=1748
-RectSel=0
-CaretPos=1748
-CaretVisible=1
-TopLineAlt=0
-SelStartAlt=0
-SelStopAlt=0
-RectSelAlt=0
-CaretPosAlt=0
-CaretVisibleAlt=0
-BookmarkCount=1
-Folding=
-FileType=txt
-DataFormat=win1252
-AutoIndent=0
-NumberLines=0
-WordWrapIndent=0
-NumberColumns=0
-ShowSpaces=0
-ShowLineBreaks=0
-LiveSpell=0
-WrapPos=-2
-RecordSize=-2
-HexEditor=0
-HexSections=-2
-ProjectStatus=0
-RelativeFilename=..\..\..\Users\Local PC Account\Desktop\sql-aboiler.txt
-Filename=C:\Users\Local PC Account\Desktop\sql-aboiler.txt
-FTPFilename=
-ForcedReadOnly=0
-
 [EditPad Project]
 Managed=0
 BookmarksProjectWide=0
 TabIndex=3
-FileCount=9
+FirstFileTab=0
+FileCount=8
 RemovedCount=0
 
