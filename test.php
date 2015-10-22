@@ -3,7 +3,7 @@
 class SimpleClass 
 {
 	// property declaration
-	public $var = 'an ven better default value';
+	public $var = 'an ven better default value for tiles';
 	
 	// method declaration
 	public function displayVar(){
