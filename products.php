@@ -5,7 +5,7 @@
 	// ------------------------------------------------------
 	// BEGIN: Validation Routines
 	// ------------------------------------------------------
-	# takes: a string
+	# takes: a string. something.
 	# returns: a cleaned version of that string, in theory safe for use in queries
 	function quote_smart($value)
 	{
