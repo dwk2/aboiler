@@ -3,7 +3,7 @@
 class SimpleClass 
 {
 	// property declaration
-	public $var = 'an even better default value';
+	public $var = 'an ven better default value';
 	
 	// method declaration
 	public function displayVar(){
